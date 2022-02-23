@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(rps.png);
+    background-size:cover;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    color: rgb(241, 87, 87);;
+}
+
+h2 {
+    font-size: 2em;    
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.players h2:nth-child(2) {
+    margin-left: 30px;
+}
+
+#game-btn {
+    font-size: 1.5em;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 157, 157);
+    font-weight: bold;
+}
+
+#result-el {
+    font-size: 3em;
+}
